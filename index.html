@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Property</title>
+    <!--Google Font-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat|Ubuntu:wght@300&display=swap" rel="stylesheet">
+  
+	<!--CSS stylesheets-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+	<!--Bootstrap Scripts-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section>
+        <nav>
+            <img class="logo" src="images/house.png" alt="Logo description" style="text-align: left;">
+            <a href="home">Home</a>
+            <a href="rent">Rent</a>
+            <a href="buy">Buy</a>
+            <a href="sell">Sell</a>
+            <a href="contact">Contact</a>
+            <button type="button" class="btn btn-light">Sign-up</button>
+            <button type="button" class="btn btn-primary">Login</button>
+        </nav>
+        <h1 style="color:mediumvioletred;">Aarya's Rent Property</h1>
+        <h5>Search properties to rent</h5>
+        <form class="search-form" action="/search" method="GET">
+            <input class="search-input" type="text-images" name="query" placeholder="Search here">
+            <button type="button" class="btn btn-info">Search</button>
+        </form>
+    </section>
+</main>
+   <main>
+    <h1>Property for Rents</h1>
+   <div class="container">
+    <div>
+    <figure>
+        <img class="class-square" src="images/house-1.webp" alt="house">
+        <figcaption>$2,095 /<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>Houce Architecture, New York</p>
+        <div>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+        </div>
+        <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location">
+        </div>
+    </figure> 
+    </div>  
+    <figure>
+        <img class="class-square" src="images/house-3.jpg" alt="house">
+        <figcaption></figcaption>
+        <p>$2,797/<b>month</b></p>
+        <p>House, Home, Real estate </p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/house-4.jpg" alt="house">
+        <figcaption>$2,890/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>House, Window, Luxury</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/large-home-2.webp" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>Large home, Residential, New-York</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    
+    <figure>
+        <img class="class-square" src="images/new-home-5.jpg" alt="house">
+        <figcaption>$2,710/<b>month</b></figcaption>
+        <p>Bedrooms:2, kitchen:1</p>
+        <p>House, Mansion</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/home-3150500_1280.jpg" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:4, kitchen:1</p>
+        <p>New England</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/house-186400_1280.jpg" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>House, Lawn, Family</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/house-3362676_1280.jpg" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>House New-York</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/house-a.jpg" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>House Pool</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+              <option value="">Any</option>
+              <option value="Apartment">Apartment</option>
+              <option value="House">House</option>
+              <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/pexels-photo-2566860.jpeg" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:2, kitchen:1</p>
+        <p>Full Nature Town</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/pexels-photo-2587054.jpeg" alt="house"> 
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>House Beach Side</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+    <figure>
+        <img class="class-square" src="images/san-francisco-210230_1280.jpg" alt="house">
+        <figcaption>$2,700/<b>month</b></figcaption>
+        <p>Bedrooms:3, kitchen:1</p>
+        <p>House England</p>
+        <label for="property-type">Property Type:</label>
+        <select id="property-type">
+            <option value="">Any</option>
+            <option value="Apartment">Apartment</option>
+            <option value="House">House</option>
+            <option value="Condo">Condo</option>
+        </select>
+    </figure>
+</main>
+    <main>
+        <h2>Interior Design</h2>
+        <div class="interior-box"> 
+            <figure>
+                <img class="class-square" src="images/interior-2400372_1280.jpg" alt="house">
+                <p>Interior Holl design</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/kitchen-10.jpg" alt="house">
+                <p>Interior Side area </p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/living-room-6.jpg" alt="house">
+                <p>Proportional Interior Design</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/kitchen-8.jpg" alt="house">
+                <p>Interior Designer Kitchen</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/Interior-1.jpg" alt="house">
+                <p>Interior Designer Kitchen</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                
+            <img class="class-square" src="images/interior-3.jpg" alt="house">
+                <p>Interior Holl Design</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/side area.jpg" alt="house">
+                <p>Proportional Interior Side Area </p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/bedroom-7.jpg" alt="house">
+                <p>Interior Holl Bedroom</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/kitchen-interior.webp" alt="house">
+                <p>Interior Kitchen Design</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/furniture-998265_1280.jpg" alt="house">
+                <p>Interior Holl Design</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/brick-wall-1850095_1280.jpg" alt="house"> 
+                <p>Interior Side Area</p>
+                <p>Houce Architecture, New York</p>
+            </figure> 
+            <figure>
+                <img class="class-square" src="images/lights-1867437_1280.jpg" alt="house">
+                <p>Interior Design</p>
+                <p>Houce Architecture, New York</p>
+            </figure>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body
+{
+    background-color:bisque;
+}
+section {
+    background-color:aquamarine;
+}
+.search-form 
+{
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+}
+nav a
+{
+    padding: 5px;
+    margin: 5px;
+    font-size: 17px;
+    color:black;
+    display:inline-block;
+    text-decoration: dashed;
+}
+nav 
+{
+    text-align: left;
+}
+nav button
+{
+    margin: 10px;
+}
+h5
+{
+    color:brown;
+    padding: 5px;
+    margin:15px;
+    text-align: right;
+}
+h1,h2 
+{
+    color:darkgreen;
+    text-align: center;
+}
+img
+{
+    width: 250px;
+    padding: 10px;
+}
+.container
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+figcaption 
+{
+    color: rgb(49, 4, 92);
+    text-align: left;
+}
+p
+{
+    text-align: left;
+}
+.logo
+{
+    padding-top: 5px;
+    width: 70px; 
+}
+.interior-box
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 11px;
+}
+label
+{
+    text-align: left;
+}
